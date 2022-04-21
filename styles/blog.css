@@ -1,0 +1,271 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* навигация */
+
+.left_nav ul {
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.left_nav ul li {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.left_nav ul li a {
+    font-family: 'MV Boli';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #585858;
+    text-decoration: none;
+}
+
+.contaiener_nav {
+    margin-top: 19px;
+    margin-bottom: 9px;
+}
+
+.call {
+    display: block;
+    background: #039434;
+    border-radius: 4px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding: 10px 23px;
+    text-decoration: none;
+}
+
+.call:hover {
+    color: #fff;
+}
+
+/* блог */
+
+.blog{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.blog_ {
+    max-width: 321px;
+    width: 100%;
+}
+
+.blog h4 {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #088C4D;
+    margin-bottom: 20px;
+}
+
+.blog a {
+    font-family: 'Muller';
+    font-style: normal;
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.blog_ h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-left: 8px;
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.blog_ h5 img {
+    margin-right: 5px;
+}
+
+.blog_ h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-align: left;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.blog_ p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.blog_ a {
+    background: #046C3A;
+    display: inline-block;
+    border-radius: 2px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 8px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+/* footer */
+
+.footer {
+    background: #02300C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.right__foot a {
+    display: block;
+}
+
+.left_foot h5 {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.telegram {
+    margin-top: 20px;
+}
+
+.tel {
+    display: block;
+    margin-top: 20px;
+
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.tel:hover {
+    color: #fff;
+}
+
+.tel img {
+    margin-right: 15px;
+}
+
+.left__foot a {
+    font-family: 'MV Boli';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+}
+
+.left__foot a::after {
+    content: '';
+    display: inline-block;
+    height: 140px;
+    width: 1px;
+    background: #fff;
+    margin-left: 20px;
+}
+
+.center__foot {
+    max-width: 176px;
+    width: 100%;
+    position: relative;
+}
+
+.center__foot::after {
+    content: '';
+    display: flex;
+    height: 140px;
+    width: 1px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.center__foot h5 {
+    font-family: 'MV Boli';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.center__foot p {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.right__foot a {
+    font-family: 'MV Boli';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 4px;
+}
+
+.right__foot {
+    margin-left: 20px;
+}
