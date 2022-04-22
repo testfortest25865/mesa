@@ -4,7 +4,37 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'MV Boli';
+    src: url(/fonts/mvboli.ttf);
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url(../fonts/MullerRegular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Adobe Caslon Pro';
+    src: url(/fonts/ACaslonPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cambria';
+    src: url(/fonts/Cambria.ttf);
+}
+
 /* навигация */
+
+.logo {
+    max-width: 150px;
+    width: 100%;
+}
 
 .left_nav ul {
     list-style: none;
@@ -55,7 +85,7 @@
 
 /* блог */
 
-.blog{
+.blog {
     padding-top: 80px;
     padding-bottom: 100px;
 }
@@ -63,6 +93,7 @@
 .blog_ {
     max-width: 321px;
     width: 100%;
+    margin: 5px;
 }
 
 .blog h4 {
@@ -268,4 +299,44 @@
 
 .right__foot {
     margin-left: 20px;
+}
+
+
+
+/* блог 1 */
+
+.opalubka {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.opalubka h2 {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #088C4D;
+}
+
+.opalubka img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.opalubka p {
+    font-family: 'Myanmar Khyay';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-top: 50px;
+    text-align: left;
 }

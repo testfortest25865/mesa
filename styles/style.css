@@ -4,7 +4,37 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'MV Boli';
+  src: url(../fonts/mvboli.ttf);
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url(../fonts/MullerRegular.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Adobe Caslon Pro';
+  src: url(../fonts/ACaslonPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Cambria';
+  src: url(../fonts/Cambria.ttf);
+}
+
 /* навигация */
+
+.logo{
+  max-width: 150px;
+  width: 100%;
+}
 
 .left_nav ul {
   list-style: none;
@@ -56,7 +86,7 @@
 /* header */
 
 .header_body {
-  background-image: url(/img/header.jpg);
+  background-image: url(../img/header.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -243,7 +273,7 @@
 }
 
 .forma {
-  background: url(/img/form_bg.jpg);
+  background: url(../img/form_bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

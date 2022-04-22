@@ -4,7 +4,37 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'MV Boli';
+    src: url(/fonts/mvboli.ttf);
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url(../fonts/MullerRegular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Adobe Caslon Pro';
+    src: url(/fonts/ACaslonPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cambria';
+    src: url(/fonts/Cambria.ttf);
+}
+
 /* навигация */
+
+.logo{
+    max-width: 150px;
+    width: 100%;
+  }
 
 .left_nav ul {
     list-style: none;
@@ -95,6 +125,10 @@
 }
 
 /* ассортимент */
+
+.images{
+    text-align: center;
+}
 
 .assort {
     margin-top: 82px;
