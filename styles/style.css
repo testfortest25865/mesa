@@ -618,3 +618,7 @@
 .right__foot {
   margin-left: 20px;
 }
+
+@media screen and (max-width: 430px){
+  
+}

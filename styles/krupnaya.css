@@ -86,7 +86,7 @@
 /* header */
 
 .header_body {
-    background-image: url(/img/krupnoshitovaya/header.jpg);
+    background-image: url(../img/krupnoshitovaya/header.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,7 +265,7 @@
 }
 
 .forma {
-    background: url(/img/krupnoshitovaya/form_bg.jpg);
+    background: url(../img/krupnoshitovaya/form_bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
