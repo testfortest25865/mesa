@@ -29,6 +29,47 @@
     src: url(/fonts/Cambria.ttf);
 }
 
+/*| Navigation |*/
+
+nav ul {
+    list-style: none;
+    position: relative;
+    float: center;
+    display: inline-table;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    background: #fff;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding-left: 0px;
+}
+
+nav ul ul li {
+    float: none;
+    position: relative;
+}
+
+nav ul ul li:hover {
+    background: rgba(0, 0, 0, 0.126);
+}
+
+
+nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
 /* бургер */
 
 .mobile-menu {
@@ -407,7 +448,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
     color: #000000;
     margin-top: 8px;
@@ -600,7 +641,7 @@
         font-size: 14px;
     }
 
-    .right_about img{
+    .right_about img {
         width: 100%;
     }
 
@@ -619,7 +660,7 @@
 
     .assort p,
     .pred p,
-    .poch p  {
+    .poch p {
         font-size: 14px;
     }
 
@@ -744,7 +785,7 @@
         text-decoration: none;
     }
 
-    .blog_i{
+    .blog_i {
         width: 100%;
     }
 
