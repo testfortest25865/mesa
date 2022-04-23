@@ -880,7 +880,7 @@ td {
         display: none;
     }
 
-    .header_body{
+    .header_body {
         padding-top: 20px;
     }
 
@@ -924,11 +924,11 @@ td {
     }
 
     .right_sfera img,
-    .left_pred img{
+    .left_pred img {
         width: 100%;
     }
 
-    .left_pred{
+    .left_pred {
         order: 2;
     }
 
@@ -953,16 +953,16 @@ td {
 
     /* характеристики */
 
-    .one_x{
+    .one_x {
         flex-direction: column;
     }
 
-    .one_x img{
+    .one_x img {
         margin-right: 0px;
         margin-bottom: 20px;
     }
 
-    .xarakter h5{
+    .xarakter h5 {
         text-align: center;
     }
 
@@ -979,6 +979,10 @@ td {
     }
 
     /* форма */
+
+    .forma {
+        background-position: left;
+    }
 
     .container_form h3 {
         font-size: 22px;
@@ -1001,6 +1005,7 @@ td {
         font-size: 20px;
         line-height: 20px;
         padding: 10px 40px;
+        margin-top: 20px;
     }
 
     /* сфера проектирования */
@@ -1041,7 +1046,7 @@ td {
 
     /* блог */
 
-    .blog_i{
+    .blog_i {
         width: 100%;
     }
 
@@ -1147,6 +1152,12 @@ td {
 
     .opalubka h2 {
         font-size: 28px;
+    }
+
+    /* таблица */
+
+    td {
+        font-size: 10px;
     }
 
 }

@@ -976,6 +976,10 @@ td {
 
     /* форма */
 
+    .forma{
+        background-position: left;
+    }
+
     .container_form h3 {
         font-size: 22px;
     }
@@ -997,6 +1001,7 @@ td {
         font-size: 20px;
         line-height: 20px;
         padding: 10px 40px;
+        margin-top: 20px;
     }
 
     /* сфера проектирования */
@@ -1143,6 +1148,12 @@ td {
 
     .opalubka h2 {
         font-size: 28px;
+    }
+
+    /* таблица */
+
+    td {
+        font-size: 10px;
     }
 
 }
