@@ -21,7 +21,7 @@
 
 @font-face {
   font-family: 'Adobe Caslon Pro';
-  src: url(../fonts/ACaslonPro-Regular.ttf);
+  src: url(../fonts/FontsFree-Net-ACaslonPro-Bold.ttf);
 }
 
 @font-face {
@@ -69,6 +69,21 @@ nav ul ul ul {
   position: absolute;
   left: 100%;
   top: 0;
+}
+
+.mobile-menu__item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mobile-menu__item ul {
+  background: #064828;
+
+}
+
+.mobile-menu__item ul li a {
+  padding: 10px;
+  font-size: 18px;
 }
 
 
@@ -268,7 +283,7 @@ nav ul ul ul {
 }
 
 .container_header h1 {
-  font-family: 'Adobe Caslon Pro';
+  /* font-family: 'Adobe Caslon Pro'; */
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -317,6 +332,7 @@ nav ul ul ul {
 }
 
 .right_about img {
+  /* max-width: 500px; */
   width: 100%;
   object-fit: cover;
 }
@@ -324,7 +340,6 @@ nav ul ul ul {
 .left_about {
   max-width: 560px;
   width: 100%;
-  margin-right: 160px;
 }
 
 .left_about h3 {
@@ -417,18 +432,15 @@ nav ul ul ul {
 .form input {
   background: #EBEBEB;
   border: 3px solid #088C4D;
-  padding: 14px 200px 14px 22px;
+  padding: 14px 80px 14px 22px;
   margin-right: 30px;
   margin-left: 30px;
-}
 
-.form input::placeholder {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 27px;
-  color: #000000;
 }
 
 .form button {
@@ -853,7 +865,7 @@ nav ul ul ul {
   .form input {
     margin-right: 0px;
     margin-left: 0px;
-    padding: 10px 100px 10px 10px;
+    padding: 10px;
     margin: 0 auto;
     margin-top: 20px;
   }

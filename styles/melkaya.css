@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'MV Boli';
-    src: url(/fonts/mvboli.ttf);
+    src: url(../fonts/mvboli.ttf);
 }
 
 @font-face {
@@ -16,17 +16,17 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url(/fonts/Montserrat-Regular.ttf);
+    src: url(../fonts/Montserrat-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Adobe Caslon Pro';
-    src: url(/fonts/ACaslonPro-Regular.ttf);
+    src: url(../fonts/FontsFree-Net-ACaslonPro-Bold.ttf);
 }
 
 @font-face {
     font-family: 'Cambria';
-    src: url(/fonts/Cambria.ttf);
+    src: url(../fonts/Cambria.ttf);
 }
 
 /*| Navigation |*/
@@ -36,40 +36,55 @@ nav ul {
     position: relative;
     float: center;
     display: inline-table;
-  }
-  
-  nav ul li:hover>ul {
+}
+
+nav ul li:hover>ul {
     display: block;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     display: block;
-  }
-  
-  nav ul ul {
+}
+
+nav ul ul {
     display: none;
     background: #fff;
     position: absolute;
     border: 1px solid rgba(0, 0, 0, .1);
     padding-left: 0px;
     z-index: 99;
-  }
-  
-  nav ul ul li {
+}
+
+nav ul ul li {
     float: none;
     position: relative;
-  }
-  
-  nav ul ul li:hover {
+}
+
+nav ul ul li:hover {
     background: rgba(0, 0, 0, 0.126);
-  }
-  
-  
-  nav ul ul ul {
+}
+
+
+nav ul ul ul {
     position: absolute;
     left: 100%;
     top: 0;
-  }
+}
+
+.mobile-menu__item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mobile-menu__item ul {
+    background: #064828;
+
+}
+
+.mobile-menu__item ul li a {
+    padding: 10px;
+    font-size: 18px;
+}
 
 /* бургер */
 
@@ -402,18 +417,15 @@ nav ul {
 .form input {
     background: #EBEBEB;
     border: 3px solid #088C4D;
-    padding: 14px 200px 14px 22px;
+    padding: 14px 80px 14px 22px;
     margin-right: 30px;
     margin-left: 30px;
-}
 
-.form input::placeholder {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 27px;
-    color: #000000;
 }
 
 .form button {
@@ -524,7 +536,7 @@ nav ul {
 .pro h5:hover {
     opacity: 1;
     background: rgba(0, 0, 0, 0.60);
-  color: #67ff9a;
+    color: #67ff9a;
 }
 
 .pro img {
@@ -1019,7 +1031,7 @@ td {
 
     /* форма */
 
-    .forma{
+    .forma {
         background-position: left;
     }
 
@@ -1035,7 +1047,7 @@ td {
     .form input {
         margin-right: 0px;
         margin-left: 0px;
-        padding: 10px 100px 10px 10px;
+        padding: 10px;
         margin: 0 auto;
         margin-top: 20px;
     }

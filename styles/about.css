@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'MV Boli';
-    src: url(/fonts/mvboli.ttf);
+    src: url(../fonts/mvboli.ttf);
 }
 
 @font-face {
@@ -16,17 +16,17 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url(/fonts/Montserrat-Regular.ttf);
+    src: url(../fonts/Montserrat-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Adobe Caslon Pro';
-    src: url(/fonts/ACaslonPro-Regular.ttf);
+    src: url(../fonts/FontsFree-Net-ACaslonPro-Bold.ttf);
 }
 
 @font-face {
     font-family: 'Cambria';
-    src: url(/fonts/Cambria.ttf);
+    src: url(../fonts/Cambria.ttf);
 }
 
 /*| Navigation |*/
@@ -68,6 +68,21 @@ nav ul ul ul {
     position: absolute;
     left: 100%;
     top: 0;
+}
+
+.mobile-menu__item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mobile-menu__item ul {
+    background: #064828;
+
+}
+
+.mobile-menu__item ul li a {
+    padding: 10px;
+    font-size: 18px;
 }
 
 /* бургер */
