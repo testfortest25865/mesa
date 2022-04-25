@@ -70,20 +70,20 @@ nav ul ul ul {
     top: 0;
 }
 
-.mobile-menu__item a{
+.mobile-menu__item a {
     color: #fff;
     text-decoration: none;
-  }
-  
-  .mobile-menu__item ul{
+}
+
+.mobile-menu__item ul {
     background: #064828;
-    
-  }
-  
-  .mobile-menu__item ul li a{
+
+}
+
+.mobile-menu__item ul li a {
     padding: 10px;
     font-size: 18px;
-  }
+}
 
 /* бургер */
 
@@ -526,6 +526,59 @@ nav ul ul ul {
     text-align: left;
 }
 
+@media screen and (max-width: 992px) {
+
+    .container_header img {
+        display: none;
+    }
+
+    .contaiener_nav {
+        flex-direction: column;
+    }
+
+    .container_about {
+        justify-content: center !important;
+    }
+
+    .input {
+        justify-content: center;
+    }
+
+    input {
+        margin: 5px;
+    }
+
+    .pro {
+        margin-top: 10px;
+    }
+
+    .container_klass {
+        justify-content: center !important;
+    }
+
+    .klasss {
+        margin: 5px;
+    }
+
+    .container_blog {
+        justify-content: center !important;
+    }
+
+    .blog_ {
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .left_nav {
+        justify-content: center !important;
+    }
+
+    .right_foot {
+        margin-top: 10px;
+    }
+}
+
 @media screen and (max-width: 500px) {
 
 
@@ -539,6 +592,7 @@ nav ul ul ul {
 
     .contaiener_nav {
         margin-top: 5px;
+        flex-direction: row;
     }
 
     .left_nav ul {
