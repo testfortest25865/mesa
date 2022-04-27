@@ -410,6 +410,30 @@ nav ul ul ul {
   margin-top: 10px;
 }
 
+/* наши клиенты */
+
+.klient{
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.klient img {
+  margin: 10px;
+  display: block;
+}
+
+.klient_title {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 132.5%;
+  letter-spacing: -0.04em;
+  color: #088C4D;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 /* форма */
 
 .container_form {
@@ -824,30 +848,30 @@ nav ul ul ul {
     margin: 5px;
   }
 
-  .pro{
+  .pro {
     margin-top: 10px;
   }
 
   .container_klass {
-    justify-content: center!important;
+    justify-content: center !important;
   }
 
-  .klasss{
+  .klasss {
     margin: 5px;
   }
 
   .container_blog {
-    justify-content: center!important;
+    justify-content: center !important;
   }
 
-  .blog_{
+  .blog_ {
     margin: 5px;
   }
 }
 
-@media screen and (max-width: 768px){
-  .left_nav  {
-    justify-content: center!important;
+@media screen and (max-width: 768px) {
+  .left_nav {
+    justify-content: center !important;
   }
 
   .right_foot {
@@ -898,6 +922,12 @@ nav ul ul ul {
 
   .cards_vigodno {
     justify-content: center !important;
+  }
+
+  /* наши клиенты */
+
+  .klient_zoom{
+    width: 100%;
   }
 
   /* форма */
